@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,AAAC,CACJ,mBAAmB,CAAA,sBAAC,CACpB,kBAAkB,CAAA,wBAAC,CACnB,kBAAkB,CAAA,QAAC,CACnB,yBAAyB,CAAA,QAAC,CAC1B,4BAA4B,CAAA,yBAAC,CAC7B,iBAAiB,CAAA,QAAC,CAClB,wBAAwB,CAAA,QAAC,CACzB,eAAe,CAAA,QAAC,CAChB,oBAAoB,CAAA,QAAC,CACrB,eAAe,CAAA,QAAC,CAChB,cAAc,CAAA,QAAC,CAChB",
+    "sources": [
+        "../scss/styles.scss",
+        "../scss/utils/_variables.scss"
+    ],
+    "names": [],
+    "file": "styles.min.css"
+}
