@@ -1,0 +1,16 @@
+.line {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background-color: var(--title-text-color);
+  }
+}
+
+.line--light {
+  &::before {
+    background-color: var(--subtitle-text-color--light);
+  }
+}
