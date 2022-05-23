@@ -61,4 +61,30 @@ p {
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
 }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 418px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 448px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
