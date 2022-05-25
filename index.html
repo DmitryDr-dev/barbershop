@@ -1123,6 +1123,97 @@
           </ul>
         </div>
       </section>
+
+      <div class="contact-info">
+        <div class="contact-info__container">
+          <section class="section contact-info__section contact-us">
+            <div class="container">
+              <h2 class="section__title section__title--light">
+                Book a Service
+              </h2>
+              <form class="contact-us__form">
+                <input
+                  class="contact-us__form-field"
+                  type="text"
+                  name="userName"
+                  placeholder="Name*"
+                  pattern="^[A-Za-zА-Яа-яЁё\s]+$"
+                  required
+                />
+                <input
+                  class="contact-us__form-field"
+                  type="tel"
+                  name="phoneNumber"
+                  placeholder="Phone*"
+                  pattern="[0-9]{10}"
+                  required
+                />
+                <textarea
+                  class="contact-us__form-field contact-us__form-message"
+                  name="message"
+                  placeholder="Your Message"
+                ></textarea>
+                <button class="button contact-us__form-button" type="submit">
+                  Send
+                </button>
+              </form>
+            </div>
+          </section>
+          <section class="section contact-info__section contacts">
+            <div class="container contacts__container">
+              <h2 class="section__title section__title--light">Contacts</h2>
+              <div class="contacts__address-wrap">
+                <address class="contacts__address">
+                  <ul class="contacts__list list">
+                    <li class="contacts__item">
+                      <a
+                        href="https://www.google.com/maps"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="link contacts__link"
+                      >
+                        <svg class="contacts__icon" width="24" height="24">
+                          <use
+                            href="./images/icon-sprite.svg#icon-map-pin"
+                          ></use>
+                        </svg>
+                        Main Street, 7A Kyiv, 08132
+                      </a>
+                    </li>
+                    <li class="contacts__item">
+                      <a class="link contacts__link" href="tel:+380441111111">
+                        <svg class="contacts__icon" width="24" height="24">
+                          <use href="./images/icon-sprite.svg#icon-phone"></use>
+                        </svg>
+                        +38 044 111 11 11
+                      </a>
+                    </li>
+                    <li class="contacts__item">
+                      <a
+                        class="link contacts__link"
+                        href="mailto:barbershop@email.com"
+                      >
+                        <svg class="contacts__icon" width="24" height="24">
+                          <use href="./images/icon-sprite.svg#icon-mail"></use>
+                        </svg>
+                        barbershop@email.com
+                      </a>
+                    </li>
+                  </ul>
+                </address>
+                <div class="hours">
+                  <p
+                    class="section__subtitle section__subtitle--light line line--light"
+                  >
+                    working hours
+                  </p>
+                  <p class="hours__desc">Daily from 9:00 AM till 22:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </main>
 
     <script type="module" src="./js/index.js"></script>
