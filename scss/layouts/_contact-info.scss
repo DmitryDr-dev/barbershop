@@ -1,0 +1,18 @@
+.contact-info {
+  background-color: var(--dark-bg-color);
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact-info__container {
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+}
+
+.contact-info__section {
+  @media screen and (min-width: 1280px) {
+    flex-basis: calc((100% - 2 * 30px) / 2);
+  }
+}
