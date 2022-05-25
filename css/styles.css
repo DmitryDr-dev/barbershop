@@ -1052,4 +1052,48 @@ p {
 .barbers__socials-link:active .barbers__socials-icon {
   fill: var(--title-text-color--light);
 }
+
+.gallery__subtitle {
+  margin-bottom: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .gallery__list {
+    margin-right: -30px;
+    margin-bottom: -30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery__list {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .gallery__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .gallery__item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex-basis: calc((100% - 2 * 30px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
