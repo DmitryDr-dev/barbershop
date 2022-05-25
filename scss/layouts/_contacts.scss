@@ -1,0 +1,131 @@
+.contacts {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media screen and (max-width: 767.98px) {
+    background-image: url('../../images/contacts/mobile/contacts-mobile-1x.png');
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (-webkit-min-device-pixel-ratio: 2),
+      screen and (-o-min-device-pixel-ratio: 2/1),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../../images/contacts/mobile/contacts-mobile-2x.png');
+    }
+    @media screen and (min-device-pixel-ratio: 3),
+      screen and (-webkit-min-device-pixel-ratio: 3),
+      screen and (-o-min-device-pixel-ratio: 3/1),
+      screen and (min-resolution: 288dpi),
+      screen and (min-resolution: 3dppx) {
+      background-image: url('../../images/contacts/mobile/contacts-mobile-3x.png');
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1279.98px) {
+    background-image: url('../../images/contacts/tablet/contacts-tablet-1x.png');
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (-webkit-min-device-pixel-ratio: 2),
+      screen and (-o-min-device-pixel-ratio: 2/1),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../../images/contacts/tablet/contacts-tablet-2x.png');
+    }
+    @media screen and (min-device-pixel-ratio: 3),
+      screen and (-webkit-min-device-pixel-ratio: 3),
+      screen and (-o-min-device-pixel-ratio: 3/1),
+      screen and (min-resolution: 288dpi),
+      screen and (min-resolution: 3dppx) {
+      background-image: url('../../images/contacts/tablet/contacts-tablet-3x.png');
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 0;
+    margin-right: 0;
+
+    background-image: url('../../images/contacts/desktop/contacts-desktop-1x.png');
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (-webkit-min-device-pixel-ratio: 2),
+      screen and (-o-min-device-pixel-ratio: 2/1),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../../images/contacts/desktop/contacts-desktop-2x.png');
+    }
+    @media screen and (min-device-pixel-ratio: 3),
+      screen and (-webkit-min-device-pixel-ratio: 3),
+      screen and (-o-min-device-pixel-ratio: 3/1),
+      screen and (min-resolution: 288dpi),
+      screen and (min-resolution: 3dppx) {
+      background-image: url('../../images/contacts/desktop/contacts-desktop-3x.png');
+    }
+  }
+}
+
+.contacts__container {
+  @media screen and (min-width: 1280px) {
+    padding-left: 100px;
+  }
+}
+
+.contacts__address-wrap {
+  @media screen and (min-width: 768px) and (max-width: 1279.98px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.contacts__address {
+  @media screen and (max-width: 767.98px) {
+    margin-bottom: 44px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1279.98px) {
+    flex-basis: calc((100% - 2 * 30px) / 2);
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 70px;
+  }
+}
+
+.contacts__item {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color--light);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:active {
+    color: var(--title-text-color--light);
+  }
+}
+
+.contacts__icon {
+  stroke: currentColor;
+  fill: transparent;
+  margin-right: 20px;
+}
+
+.hours {
+  @media screen and (min-width: 768px) and (max-width: 1279.98px) {
+    flex-basis: calc((100% - 2 * 30px) / 2);
+  }
+}
+
+.hours__desc {
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color--light);
+}
