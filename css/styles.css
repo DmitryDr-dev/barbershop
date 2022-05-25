@@ -1317,4 +1317,40 @@ p {
   letter-spacing: 0.02em;
   color: var(--main-text-color--light);
 }
+
+.footer {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer__socials {
+    margin-bottom: 20px;
+    justify-content: flex-end;
+  }
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: var(--main-text-color--light);
+}
 /*# sourceMappingURL=styles.css.map */
